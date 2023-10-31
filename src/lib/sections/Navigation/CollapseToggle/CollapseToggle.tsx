@@ -14,12 +14,14 @@ export const CollapseToggle = ({
 }: NavigationCollapseToggleProps): JSX.Element => {
   return (
     <Tooltip
+      className="p-side-navigation__tooltip-wrapper"
       message={
         <>
           {!isCollapsed ? "collapse" : "expand"}( <code>&#91;</code> )
         </>
       }
       position="right"
+      tooltipClassName="p-side-navigation__tooltip"
     >
       <Button
         appearance="base"
