@@ -195,7 +195,7 @@ const meta: Meta<typeof Navigation> = {
                 </Navigation.Item>
                 <Navigation.Item>
                   <Navigation.Link href="#">
-                    <Navigation.Icon name="help" />
+                    <Navigation.Icon name="submit-bug" />
                     <Navigation.Label>Report a bug</Navigation.Label>
                   </Navigation.Link>
                 </Navigation.Item>
